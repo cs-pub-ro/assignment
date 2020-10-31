@@ -1,6 +1,6 @@
 #!/bin/bash
 
-unzip archive.zip
 unzip -qq -o artifact.zip
+unzip archive.zip -d src
 bash check.sh
 exit $?
